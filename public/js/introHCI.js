@@ -54,7 +54,7 @@ function coloring(thecolor)
 {
 	console.log(thecolor);
 
-	var colors = thecolor["hex"];
+	var colors = thecolor["colors"]["hex"];
 	$('body').css('background-color', colors[0]);
 	$('.thumbnail').css('background-color', colors[1]);
 	$('h1, h2, h3, h4, h5, h5').css('color', colors[2]);
